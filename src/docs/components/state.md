@@ -43,7 +43,7 @@ For more advanced use cases state can be a complex Type. In the below example we
 ```tsx
 import { State } from '@stencil/core';
 
-type Todo = {
+export type Todo = {
   done: boolean,
   description: string,
 }
